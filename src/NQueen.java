@@ -9,13 +9,13 @@ PS：皇后可以攻击同一行、同一列、左上左下右上右下四个方
 
 public class NQueen {
 
-    ArrayList<StringBuffer[][]> res=new ArrayList<>();
+    ArrayList<StringBuffer[][]> res=new ArrayList<>(); //保存所有放置结果
 
     public static void main(String[] args) {
 
         NQueen nQueen=new NQueen();
         nQueen.solveNQueens(8);
-        int i=0;
+
     }
 
     ArrayList<StringBuffer[][]> solveNQueens(int n){
